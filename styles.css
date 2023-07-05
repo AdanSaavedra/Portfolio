@@ -109,25 +109,30 @@ li{
     margin: 120px 0;
     width: 1000px;
 }
-#projects > *{
-    margin: 0;
-}
+
 .titles{
     font-size: 40px;
+    margin: 0;
 }
 .projectsSection{
     font-size: 24px;
     font-weight: 300;
     letter-spacing: 2px;
+    margin: 30px 0 0;
+}
+.projectsSection:nth-child(4){
+    margin: 60px 0 0;
 }
 .projectsContainer{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 .projectCard{
     background-color: var(--bg-cards);
     width: 300px;
-    height: 300px;
+    height: 290px;
+    border-radius: 0 22px;
 }
 .projectImgContainer{
     width: 300px;
@@ -136,10 +141,28 @@ li{
 .projectImg{
     width: 100%;
     object-fit: contain;
+    border-radius: 0 22px 0 0;
 }
 .projectTitle{
-    margin-left: 20px;
+    margin: 20px 0 8px 20px;
+    font-size: 20px;
 }
 .projectLinks{
     margin-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+.projectAnchor{
+    color: var(--primary);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 8px;
+}
+.projectAnchor:hover{
+    background-color: var(--primary);
+    color: var(--bg-cards);
+    transition: 300ms;
+    padding: 4px;
+    border-radius: 8px;
 }
