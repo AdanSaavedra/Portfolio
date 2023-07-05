@@ -1,0 +1,145 @@
+:root{
+    --bg: #E9EAEC;
+    --black: #171717;
+    --bg-cards: #FFFFFF;
+    --primary:#7DA2A9;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    background-color: var(--primary);
+    color: var(--white);
+    height: 80px;
+    
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.navTitle{
+    color: var(--bg-cards);
+    margin: 0;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+}
+.navMenu{
+    margin: 0;
+}
+.navMenu a{
+    color: var(--bg-cards);
+    text-decoration: none;
+    border-radius: 16px;
+    transition: 300ms;
+}
+.navMenu a:hover{
+    color: var(--primary);
+    background-color: var(--bg-cards);
+    padding: 6px 10px;
+    border-radius: 16px;
+    transition: 300ms;
+}
+
+/* Main */
+main{
+    background-color: var(--bg);
+    padding: 90px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Home */
+.card{
+    display: flex;
+    background-color: var(--bg-cards);
+    width: 1000px;
+    height: 600px;
+    border-radius: 0px 30px;
+}
+.imgContainer{
+    width: 500px;
+    hyphens: 500px;
+    margin: 0;
+}
+.imgPersonal{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0 0 30px;
+}
+.intro{
+    width: 650px;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.firstLine{
+    font-size: 32px;
+    padding: 12px 0 0;
+}
+.firstLine span{
+    color: var(--primary);
+    font-weight: 700;
+}
+.descriptions{
+    font-size: 24px;
+    font-weight: 300;
+}
+.socialMediaContainer{
+    margin: 42px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.socialMedia{
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+/* Projects */
+#projects{
+    margin: 120px 0;
+    width: 1000px;
+}
+#projects > *{
+    margin: 0;
+}
+.titles{
+    font-size: 40px;
+}
+.projectsSection{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.projectsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.projectCard{
+    background-color: var(--bg-cards);
+    width: 300px;
+    height: 300px;
+}
+.projectImgContainer{
+    width: 300px;
+    margin: 0;
+}
+.projectImg{
+    width: 100%;
+    object-fit: contain;
+}
+.projectTitle{
+    margin-left: 20px;
+}
+.projectLinks{
+    margin-left: 20px;
+}
