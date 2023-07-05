@@ -166,3 +166,13 @@ li{
     padding: 4px;
     border-radius: 8px;
 }
+/* About Me */
+#aboutMe{
+    width: 1000px;
+}
+.aboutContainer{
+    margin: 30px 0 150px;
+    background-color: var(--bg-cards);
+    border-radius: 0px 30px;
+    padding: 20px 40px;
+}
