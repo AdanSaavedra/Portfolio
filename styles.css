@@ -1,178 +1,193 @@
-:root{
-    --bg: #E9EAEC;
-    --black: #171717;
-    --bg-cards: #FFFFFF;
-    --primary:#7DA2A9;
+:root {
+  --bg: #e9eaec;
+  --black: #171717;
+  --bg-cards: #ffffff;
+  --primary: #7da2a9;
 }
-body{
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 /* Navbar */
-.navbar{
-    display: flex;
-    background-color: var(--primary);
-    color: var(--white);
-    height: 80px;
-    
-    width: 100vw;
-    justify-content: space-around;
-    align-items: center;
+.navbar {
+  display: flex;
+  background-color: var(--primary);
+  color: var(--white);
+  height: 80px;
+
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
 }
-.navTitle{
-    color: var(--bg-cards);
-    margin: 0;
+.navTitle {
+  color: var(--bg-cards);
+  margin: 0;
 }
-.menu{
-    display: flex;
-    gap: 40px;
+.menu {
+  display: flex;
+  gap: 40px;
 }
-.navMenu{
-    margin: 0;
+.navMenu {
+  margin: 0;
 }
-.navMenu a{
-    color: var(--bg-cards);
-    text-decoration: none;
-    border-radius: 16px;
-    transition: 300ms;
+.navMenu a {
+  color: var(--bg-cards);
+  text-decoration: none;
+  border-radius: 16px;
+  transition: 300ms;
+  padding: 6px 10px;
 }
-.navMenu a:hover{
-    color: var(--primary);
-    background-color: var(--bg-cards);
-    padding: 6px 10px;
-    border-radius: 16px;
-    transition: 300ms;
+.navMenu a:hover {
+  color: var(--primary);
+  background-color: var(--bg-cards);
+  padding: 6px 10px;
+  border-radius: 16px;
+  transition: 300ms;
 }
 
 /* Main */
-main{
-    background-color: var(--bg);
-    padding: 90px 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  background-color: var(--bg);
+  padding: 90px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* Home */
-.card{
-    display: flex;
-    background-color: var(--bg-cards);
-    width: 1000px;
-    height: 600px;
-    border-radius: 0px 30px;
+.card {
+  display: flex;
+  background-color: var(--bg-cards);
+  width: 1000px;
+  height: 600px;
+  border-radius: 0px 30px;
 }
-.imgContainer{
-    width: 500px;
-    hyphens: 500px;
-    margin: 0;
+.imgContainer {
+  width: 500px;
+  hyphens: 500px;
+  margin: 0;
 }
-.imgPersonal{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0 0 0 30px;
+.imgPersonal {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 0 0 30px;
 }
-.intro{
-    width: 650px;
-    padding: 100px;
-    box-sizing: border-box;
+.intro {
+  width: 650px;
+  padding: 100px;
+  box-sizing: border-box;
 }
-.firstLine{
-    font-size: 32px;
-    padding: 12px 0 0;
+.firstLine {
+  font-size: 32px;
+  padding: 12px 0 0;
 }
-.firstLine span{
-    color: var(--primary);
-    font-weight: 700;
+.firstLine span {
+  color: var(--primary);
+  font-weight: 700;
 }
-.descriptions{
-    font-size: 24px;
-    font-weight: 300;
+.descriptions {
+  font-size: 24px;
+  font-weight: 300;
 }
-.socialMediaContainer{
-    margin: 42px 0 0;
-    display: flex;
-    justify-content: center;
+.socialMediaContainer {
+  margin: 42px 0 0;
+  display: flex;
+  justify-content: center;
 }
-.socialMedia{
-    display: flex;
-    gap: 30px;
-    padding: 0;
-    margin: 0;
+.socialMedia {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
+}
+.media:hover {
+  transform: scale(1.2);
+  transition: 300ms;
+  display: inline-block;
 }
 /* Projects */
-#projects{
-    margin: 120px 0;
-    width: 1000px;
+#projects {
+  margin: 120px 0;
+  width: 1000px;
 }
 
-.titles{
-    font-size: 40px;
-    margin: 0;
+.titles {
+  font-size: 40px;
+  margin: 0;
 }
-.projectsSection{
-    font-size: 24px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin: 30px 0 0;
+.projectsSection {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 30px 0 0;
 }
-.projectsSection:nth-child(4){
-    margin: 60px 0 0;
+.projectsSection:nth-child(4) {
+  margin: 60px 0 0;
 }
-.projectsContainer{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+.projectsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
-.projectCard{
-    background-color: var(--bg-cards);
-    width: 300px;
-    height: 290px;
-    border-radius: 0 22px;
+.projectCard {
+  background-color: var(--bg-cards);
+  width: 300px;
+  height: 290px;
+  border-radius: 0 22px;
 }
-.projectImgContainer{
-    width: 300px;
-    margin: 0;
+.projectImgContainer {
+  width: 300px;
+  margin: 0;
 }
-.projectImg{
-    width: 100%;
-    object-fit: contain;
-    border-radius: 0 22px 0 0;
+.projectImg {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 0 22px 0 0;
 }
-.projectTitle{
-    margin: 20px 0 8px 20px;
-    font-size: 20px;
+.projectTitle {
+  margin: 20px 0 8px 20px;
+  font-size: 20px;
 }
-.projectLinks{
-    margin-left: 20px;
-    display: flex;
-    gap: 20px;
+.projectLinks {
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
 }
-.projectAnchor{
-    color: var(--primary);
-    font-size: 20px;
-    text-decoration: none;
-    padding: 4px;
-    border-radius: 8px;
+.projectAnchor {
+  color: var(--primary);
+  font-size: 20px;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 8px;
 }
-.projectAnchor:hover{
-    background-color: var(--primary);
-    color: var(--bg-cards);
-    transition: 300ms;
-    padding: 4px;
-    border-radius: 8px;
+.projectAnchor:hover {
+  background-color: var(--primary);
+  color: var(--bg-cards);
+  transition: 300ms;
+  padding: 4px;
+  border-radius: 8px;
 }
 /* About Me */
-#aboutMe{
-    width: 1000px;
+#aboutMe {
+  width: 1000px;
 }
-.aboutContainer{
-    margin: 30px 0 150px;
-    background-color: var(--bg-cards);
-    border-radius: 0px 30px;
-    padding: 20px 40px;
+.aboutContainer {
+  margin: 30px 0 150px;
+  background-color: var(--bg-cards);
+  border-radius: 0px 30px;
+  padding: 20px 40px;
+}
+.techList {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+}
+.techTitle {
+  letter-spacing: 2px;
+  font-weight: 300;
 }
