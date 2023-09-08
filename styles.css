@@ -191,3 +191,48 @@ li {
   letter-spacing: 2px;
   font-weight: 300;
 }
+@media (max-width: 1030px) {
+  .descriptions {
+    padding: 0 16px;
+    width: 340px;
+  }
+  .card {
+    flex-direction: column;
+    width: 360px;
+    height: 900px;
+  }
+  .imgContainer {
+    width: 360px;
+    height: 600px;
+  }
+  .socialMediaContainer {
+    width: 360px;
+  }
+  .intro {
+    padding: 0;
+    width: 360px;
+  }
+  .projectsContainer {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #aboutMe {
+    width: 360px;
+  }
+  #projects {
+    width: 360px;
+  }
+  .aboutContainer {
+    width: 285px;
+  }
+  .imgPersonal {
+    border-radius: 0 30px 0 0;
+  }
+  .socialMediaContainer {
+    margin: 20px 0 30px;
+  }
+  .firstLine {
+    text-align: center;
+  }
+}
